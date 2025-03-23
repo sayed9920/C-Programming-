@@ -1,0 +1,19 @@
+CM TO INC AND INC TO CM:
+
+
+int main() {
+    float cm, inch;
+
+
+    printf("Enter length in centimeters: ");
+    scanf("%f", &cm);
+    inch = cm / 2.54;
+    printf("Length in inches = %.2f\n", inch);
+
+    printf("\nEnter length in inches: ");
+    scanf("%f", &inch);
+    cm = inch * 2.54;
+    printf("Length in centimeters = %.2f\n", cm);
+
+    return 0;
+}
