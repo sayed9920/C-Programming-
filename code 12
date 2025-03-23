@@ -1,0 +1,36 @@
+C Program to Find the Square of a Number:
+
+#include <stdio.h>
+
+int main() {
+    int num, square;
+
+    printf("Enter a number: ");
+    scanf("%d", &num);
+
+    square = num * num;
+
+    printf("Square of %d ",  square);
+
+    return 0;
+}
+
+
+
+
+ C Program to Find the Square Root of a Number:
+
+#include <stdio.h>
+
+int main() {
+    float num, sqrtResult;
+
+    printf("Enter a number: ");
+    scanf("%f", &num);
+
+    sqrtResult = sqrt(num);
+
+    printf("Square root of %.2f is %.2f\n", num, sqrtResult);
+
+    return 0;
+}
